@@ -1,0 +1,67 @@
+.container {
+  height: 100%;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 75px;
+  position: relative;
+  line-height: 72px;
+  transition: all 0.3s;
+  background: #002140;
+  overflow: hidden;
+  padding-left: 18px;
+}
+.logo img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+}
+.logo h1 {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 0 0 0 12px;
+  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.systemHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-right: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.systemName {
+  font-size: 27px;
+}
+
+.systmeAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+}
+.username {
+  font-size: 18px;
+}
+
+.systemContent {
+  background-color: #fff;
+}
